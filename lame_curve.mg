@@ -6,6 +6,9 @@ C;
 P0 := C ! [1, 3, 1]; // choose new point at infinity
 E, phi := EllipticCurve(C, P0);
 E;
-phi;
-Inverse(phi);
+/* phi; */
+/* BadPrimes(E); */
+/* LocalInformation(E); */
+G, m := MordellWeilGroup(E);
+/* TwoSelmerGroup(E); */
 
